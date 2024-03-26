@@ -1,6 +1,3 @@
-import profileImage1 from './profile1.jpg';
-import profileImage2 from './profile2.jpg';
-
 const randomMessages = [
     'Hey there!',
     'Greetings!',
@@ -72,3 +69,5 @@ export const contacts = [
         message: randomMessages[Math.floor(Math.random() * randomMessages.length)],
     },
 ];
+
+
