@@ -1,14 +1,14 @@
 import ProfileBar from "../components/ProfileBar"
 import Search from "../components/Search"
+import Contacts from "../components/Contacts"
 
 const LeftSide = () => {
   return (
-  
-        <div className="mt-4 ml-4">
+        <div className="">
             <ProfileBar />
             <Search />
-        </div> 
-    
+            <Contacts />
+        </div>  
   )
 }
 

@@ -1,9 +1,13 @@
 import ChatProfileBar from "../components/ChatProfileBar"
+import Chat from "../components/Chat"
+import Text from "../components/Text"
 
 const RightSide = () => {
   return (
-        <div className="mt-4 mr-4">
+        <div className="">
             <ChatProfileBar />
+            <Chat />
+            <Text />
         </div>
   )
 }

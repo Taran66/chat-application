@@ -1,73 +1,61 @@
-const randomMessages = [
-    'Hey there!',
-    'Greetings!',
-    'How\'s it going?',
-    'Long time no see!',
-    'Hope you\'re doing well!',
-    'What have you been up to?',
-    'It\'s a beautiful day!',
-    'Nice weather we\'re having!',
-    'Cheers!',
-    'Catch you later!',
-    'Take care!',
-    'Have a great day!',
-    'Enjoy your weekend!',
-    'Stay safe!',
-    'Keep smiling!',
-    'Sending good vibes your way!',
-];
-
-export const contacts = [
+export const Users = [
     {
-        profileImage: profileImage1,
-        username: 'user1',
-        message: randomMessages[Math.floor(Math.random() * randomMessages.length)],
+      id:1,
+      profilePicture: "../src/assets/profile_images/profile2.png",
+      message: "Hey there!",
+      username: "Safak Kocaoglu",
+      day: "Monday"
     },
     {
-        profileImage: profileImage2,
-        username: 'user2',
-        message: randomMessages[Math.floor(Math.random() * randomMessages.length)],
+      id:2,
+      profilePicture: "../src/assets/profile_images/profile3.png",
+      message:"Greetings!",
+      username: "Janell Shrum",
+      day: "Monday"
     },
     {
-        profileImage: profileImage3,
-        username: 'user3',
-        message: randomMessages[Math.floor(Math.random() * randomMessages.length)],
+      id:3,
+      profilePicture: "../src/assets/profile_images/profile4.png",
+      message:"How's it going?",
+      username: "Alex Durden",
+      day: "Tuesday"
     },
     {
-        profileImage: profileImage4,
-        username: 'user4',
-        message: randomMessages[Math.floor(Math.random() * randomMessages.length)],
+      id:4,
+      profilePicture: "../src/assets/profile_images/profile5.png",
+      message:"Long time no see!",
+      username: "Dora Hawks",
+      day: "Wednesday"
     },
     {
-        profileImage: profileImage5,
-        username: 'user5',
-        message: randomMessages[Math.floor(Math.random() * randomMessages.length)],
+      id:5,
+      profilePicture: "../src/assets/profile_images/profile6.png",
+      message:"Hope you're doing well!",
+      username: "Thomas Holden",
+      day: "Wednesday"
     },
     {
-        profileImage: profileImage6,
-        username: 'user6',
-        message: randomMessages[Math.floor(Math.random() * randomMessages.length)],
+      id:6,
+      profilePicture: "../src/assets/profile_images/profile7.png",
+      message:"What have you been up to?",
+      username: "Shirley Beauchamp",
     },
     {
-        profileImage: profileImage7,
-        username: 'user7',
-        message: randomMessages[Math.floor(Math.random() * randomMessages.length)],
+      id:7,
+      profilePicture: "../src/assets/profile_images/profile8.png",
+      message:"It\'s a beautiful day!",
+      username: "Travis Bennett",
     },
     {
-        profileImage: profileImage8,
-        username: 'user8',
-        message: randomMessages[Math.floor(Math.random() * randomMessages.length)],
+      id:8,
+      profilePicture: "../src/assets/profile_images/profile9.png",
+      message:"Nice weather we\'re having!",
+      username: "Kristen Thomas",
     },
     {
-        profileImage: profileImage9,
-        username: 'user9',
-        message: randomMessages[Math.floor(Math.random() * randomMessages.length)],
-    },
-    {
-        profileImage: profileImage10,
-        username: 'user10',
-        message: randomMessages[Math.floor(Math.random() * randomMessages.length)],
-    },
-];
-
-
+      id:9,
+      profilePicture: "../src/assets/profile_images/profile10.png",
+      message:"Catch you later!",
+      username: "Gary Duty",
+    }
+  ];
