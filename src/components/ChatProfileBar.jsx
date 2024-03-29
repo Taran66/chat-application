@@ -1,6 +1,5 @@
 const ChatProfileBar = () => {
   return (
-    <section>
         <div className="bg-black rounded-lg h-14 flex items-center justify-between">
             <a href="/">
                 <img className="h-8 ml-4 rounded-full" src="../src/assets/profile_images/profile2.png" alt="profile" />
@@ -18,7 +17,6 @@ const ChatProfileBar = () => {
                 </li>
             </ul>
         </div>
-    </section>
   )
 }
 

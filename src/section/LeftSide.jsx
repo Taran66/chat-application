@@ -4,7 +4,7 @@ import Contacts from "../components/Contacts"
 
 const LeftSide = () => {
   return (
-        <div className="">
+        <div className="flex flex-col gap-2">
             <ProfileBar />
             <Search />
             <Contacts />
